@@ -1,0 +1,78 @@
+.button {
+  background-color: #DFF2EB ;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+
+.search_bar_menu {
+  border: 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 40px;
+  width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+.form_menu {
+background-color: rgb(61, 142, 193);
+margin: 26px 2px;
+padding: 25px 25px;
+border-radius: 8px;
+}
+
+
+
+
+.data_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin: 50px 100px;
+}
+
+
+
+.title_menu {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.table_menu {
+  border-collapse: collapse;
+  position: relative;
+  left: 30%;
+  width: 50vw;
+  min-width: 40vw;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.table_menu_header,
+.table_menu_data {
+  border: 1px solid #646464;
+  text-align: left;
+  padding: 8px;
+}
+
+.table_menu_header:nth-child(1),
+.table_menu_row:nth-child(1),
+.table_menu_data:nth-child(1) {
+  width: 35px;
+  text-align: center;
+}
+
+thead > .table_menu_row {
+  background-color: var(--hijau);
+}
+
+tbody > .table_menu_row:nth-child(even) {
+  background-color: #dddddd;
+}
